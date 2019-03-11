@@ -19,10 +19,10 @@ namespace LuckySevens
                 if (die1 + die2 == 7) {
                     totalNumberOfSevens++;
                 }
-
-                Console.WriteLine("Out of 100 rols, you rolled {0} sevens", totalNumberOfSevens);
-                Console.ReadLine();
             }
+
+            Console.WriteLine("Out of 100 rolls, you rolled {0} sevens", totalNumberOfSevens);
+            Console.ReadLine();
         }
     }
 }
